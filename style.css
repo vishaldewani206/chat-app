@@ -1,8 +1,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
-  position: absolute;
-  bottom: 0;
+  position: fixed;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -322,9 +321,11 @@ body {
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
+    height: initial;
   }
   .text {
     height: 10vh;
+    margin-top: 50px;
   }
   .design {
     height: 90vh;
@@ -332,6 +333,11 @@ body {
   .mobile {
     top: 30px;
     width: 36%;
+    right: 20px;
+  }
+  .cylinder {
+    width: 85%;
+    height: 78%;
   }
   .words {
     align-items: center;
